@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets / local config
+.env
+*.env.local
+
+# Data (generated — the DB and index are rebuilt from sources)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.bak
+data/*.log
+data/index/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

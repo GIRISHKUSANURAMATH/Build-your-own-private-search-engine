@@ -1,0 +1,25 @@
+{
+  "description": "Hand-labelled relevance judgements for the sample collection (data/sample/documents.json). For each query, 'relevant' lists the slugs of documents a person would want to see. Used by: python manage.py evaluate",
+  "queries": [
+    {"query": "python virtual environment", "relevant": ["python-virtualenv"]},
+    {"query": "garbage collection jvm", "relevant": ["java-garbage-collection"]},
+    {"query": "database index b-tree", "relevant": ["database-indexing"]},
+    {"query": "acid transactions", "relevant": ["acid-transactions", "sqlite"]},
+    {"query": "virtual memory paging", "relevant": ["virtual-memory"]},
+    {"query": "difference between tcp and udp", "relevant": ["tcp-vs-udp"]},
+    {"query": "neural network backpropagation", "relevant": ["neural-networks"]},
+    {"query": "overfitting regularization", "relevant": ["overfitting"]},
+    {"query": "binary search sorted array", "relevant": ["binary-search", "big-o"]},
+    {"query": "shortest path graph", "relevant": ["graph-algorithms"]},
+    {"query": "deadlock prevention", "relevant": ["deadlocks"]},
+    {"query": "dns resolution", "relevant": ["dns"]},
+    {"query": "inverted index search engine", "relevant": ["inverted-index", "ranking-tfidf-bm25"]},
+    {"query": "python async", "relevant": ["python-asyncio"]},
+    {"query": "supervised machine learning", "relevant": ["supervised-unsupervised", "machine-learning-intro"]},
+    {"query": "sorting algorithms complexity", "relevant": ["sorting-algorithms", "big-o"]},
+    {"query": "http status codes", "relevant": ["http-protocol", "rest-apis"]},
+    {"query": "process thread", "relevant": ["processes-threads"]},
+    {"query": "edit distance", "relevant": ["dynamic-programming"]},
+    {"query": "java python comparison", "relevant": ["java-vs-python"]}
+  ]
+}
